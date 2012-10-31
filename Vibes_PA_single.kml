@@ -54,6 +54,7 @@
 					<name>56571442</name>
 					<description>Vibe Point</description>
 					<Snippet>Testing the snippet</Snippet>
+					<infoWindowHtml>What does this require?</infoWindowHtml>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
 						<coordinates>-79.10766,40.40814,0</coordinates>
