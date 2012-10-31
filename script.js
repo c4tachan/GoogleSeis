@@ -26,7 +26,7 @@ function initialize() {
     handleNoGeolocation(false);
   }
 
-  var vibeLayer = new google.maps.KmlLayer('https://raw.github.com/c4tachan/GoogleSeis/master/Vibes_PA_reduced.kml'); //, {map: map});
+  var vibeLayer = new google.maps.KmlLayer('https://raw.github.com/c4tachan/GoogleSeis/master/Vibes_PA.kml'); //, {map: map});
   console.log(vibeLayer);
   vibeLayer.setMap(map);
 
