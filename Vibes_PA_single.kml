@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>PITTSBURGH EAST, PA(NORTHEAST) v. Tue Oct 30 20:32:38 2012</name>
+	<open>1</open>
+	<StyleMap id="khPoiStyle0x1611">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#khPoiStyle0x16110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#khPoiStyle0x16111</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="khPoiStyle0x16110">
+		<IconStyle>
+			<color>ff49ff02</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle id="khPoiLabelStyle0x1611">
+			<color>a0ffffff</color>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="khPoiStyle0x16111">
+		<IconStyle>
+			<color>ff49ff02</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle id="khPoiLabelStyle0x1611">
+			<color>a0ffffff</color>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>PITTSBURGH EAST, PA(NORTHEAST)</name>
+		<open>1</open>
+		<Folder>
+			<name>POIs</name>
+			<open>1</open>
+			<Folder>
+				<name>Vibe Points</name>
+				<Placemark>
+					<name>56571442</name>
+					<styleUrl>#khPoiStyle0x1611</styleUrl>
+					<Point>
+						<coordinates>-79.10766,40.40814,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Polylines</name>
+		</Folder>
+		<Folder>
+			<name>Polygons</name>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
