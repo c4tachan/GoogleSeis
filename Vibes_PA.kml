@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>PITTSBURGH EAST, PA(NORTHEAST) v. Tue Oct 30 20:32:38 2012</name>
-	<open>1</open>
-	<StyleMap id="khPoiStyle0x1611">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#khPoiStyle0x16110</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#khPoiStyle0x16111</styleUrl>
-		</Pair>
-	</StyleMap>
+	<name>Vibes_PA.kml</name>
 	<Style id="khPoiStyle0x16110">
 		<IconStyle>
 			<color>ff49ff02</color>
@@ -24,6 +13,12 @@
 		<LabelStyle id="khPoiLabelStyle0x1611">
 			<color>a0ffffff</color>
 		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<form>
+<input type="radio" name="status" value="unactivated">Unactivated<br>
+<input type="radio" name="status" value="activated">Activated
+</form>]]></text>
+		</BalloonStyle>
 		<ListStyle>
 		</ListStyle>
 	</Style>
@@ -38,9 +33,25 @@
 		<LabelStyle id="khPoiLabelStyle0x1611">
 			<color>a0ffffff</color>
 		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<form>
+<input type="radio" name="status" value="unactivated">Unactivated<br>
+<input type="radio" name="status" value="activated">Activated
+</form>]]></text>
+		</BalloonStyle>
 		<ListStyle>
 		</ListStyle>
 	</Style>
+	<StyleMap id="khPoiStyle0x1611">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#khPoiStyle0x16110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#khPoiStyle0x16111</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Folder>
 		<name>PITTSBURGH EAST, PA(NORTHEAST)</name>
 		<open>1</open>
@@ -102,21 +113,21 @@
 					<name>58891243</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.4733,40.50342,0</coordinates>
+						<coordinates>-79.47329999999999,40.50342,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58891245</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.47227,40.50427,0</coordinates>
+						<coordinates>-79.47226999999999,40.50427,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58891237</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.47639,40.50058,0</coordinates>
+						<coordinates>-79.47638999999999,40.50058,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -186,7 +197,7 @@
 					<name>58731261</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.44205,40.48874,0</coordinates>
+						<coordinates>-79.44204999999999,40.48874,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -340,7 +351,7 @@
 					<name>58891254</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.45690000000001,40.5005,0</coordinates>
+						<coordinates>-79.4569,40.5005,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -515,7 +526,7 @@
 					<name>58971270</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.44214,40.50299,0</coordinates>
+						<coordinates>-79.44213999999999,40.50299,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -564,7 +575,7 @@
 					<name>58731264</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.43999,40.48968,0</coordinates>
+						<coordinates>-79.43998999999999,40.48968,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -704,7 +715,7 @@
 					<name>59051289</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.42789000000001,40.50865,0</coordinates>
+						<coordinates>-79.42789,40.50865,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -718,7 +729,7 @@
 					<name>59051291</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.42686000000001,40.50951,0</coordinates>
+						<coordinates>-79.42686,40.50951,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -788,7 +799,7 @@
 					<name>58651274</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.42686000000001,40.4944,0</coordinates>
+						<coordinates>-79.42686,40.4944,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -809,7 +820,7 @@
 					<name>58891271</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.43802,40.50247,0</coordinates>
+						<coordinates>-79.43801999999999,40.50247,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -823,7 +834,7 @@
 					<name>58651269</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.42274000000001,40.49809,0</coordinates>
+						<coordinates>-79.42274,40.49809,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -844,7 +855,7 @@
 					<name>58811279</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.42377000000001,40.49981,0</coordinates>
+						<coordinates>-79.42377,40.49981,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -865,7 +876,7 @@
 					<name>58731270</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.42883000000001,40.49329,0</coordinates>
+						<coordinates>-79.42883,40.49329,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -1026,7 +1037,7 @@
 					<name>58571270</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.40798,40.48719,0</coordinates>
+						<coordinates>-79.40797999999999,40.48719,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -1334,7 +1345,7 @@
 					<name>58891294</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.40592,40.50247,0</coordinates>
+						<coordinates>-79.40591999999999,40.50247,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -1355,7 +1366,7 @@
 					<name>58891291</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.40695,40.4999,0</coordinates>
+						<coordinates>-79.40694999999999,40.4999,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -1390,7 +1401,7 @@
 					<name>58571297</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.39467000000001,40.49088,0</coordinates>
+						<coordinates>-79.39467,40.49088,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -1453,7 +1464,7 @@
 					<name>59211315</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.40789,40.51569,0</coordinates>
+						<coordinates>-79.40788999999999,40.51569,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -1467,7 +1478,7 @@
 					<name>59211313</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.40901,40.51475,0</coordinates>
+						<coordinates>-79.40900999999999,40.51475,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -1607,7 +1618,7 @@
 					<name>59611304</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.44111,40.53088,0</coordinates>
+						<coordinates>-79.44110999999999,40.53088,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -1810,7 +1821,7 @@
 					<name>59691313</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.44111,40.53311,0</coordinates>
+						<coordinates>-79.44110999999999,40.53311,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -1824,7 +1835,7 @@
 					<name>59691311</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.44214,40.53397,0</coordinates>
+						<coordinates>-79.44213999999999,40.53397,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -1838,7 +1849,7 @@
 					<name>59691309</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.44317,40.53492,0</coordinates>
+						<coordinates>-79.44316999999999,40.53492,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -1943,7 +1954,7 @@
 					<name>59531298</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.44308,40.52728,0</coordinates>
+						<coordinates>-79.44307999999999,40.52728,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -2286,7 +2297,7 @@
 					<name>59051279</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.43905,40.50857,0</coordinates>
+						<coordinates>-79.43904999999999,40.50857,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -2426,7 +2437,7 @@
 					<name>59531313</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.42677000000001,40.52788,0</coordinates>
+						<coordinates>-79.42677,40.52788,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -2447,7 +2458,7 @@
 					<name>59611318</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.42789000000001,40.53286,0</coordinates>
+						<coordinates>-79.42789,40.53286,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -2475,7 +2486,7 @@
 					<name>59611316</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.42883000000001,40.53191,0</coordinates>
+						<coordinates>-79.42883,40.53191,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -2531,7 +2542,7 @@
 					<name>59291323</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.40386,40.51947,0</coordinates>
+						<coordinates>-79.40385999999999,40.51947,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -2573,7 +2584,7 @@
 					<name>59691317</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.42789000000001,40.53921,0</coordinates>
+						<coordinates>-79.42789,40.53921,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -2594,7 +2605,7 @@
 					<name>59691320</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.42583000000001,40.53826,0</coordinates>
+						<coordinates>-79.42583,40.53826,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -2664,7 +2675,7 @@
 					<name>59931336</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.42180000000001,40.5435,0</coordinates>
+						<coordinates>-79.4218,40.5435,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -2741,7 +2752,7 @@
 					<name>59771325</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.42883000000001,40.53938,0</coordinates>
+						<coordinates>-79.42883,40.53938,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -2755,7 +2766,7 @@
 					<name>59691323</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.42583000000001,40.53552,0</coordinates>
+						<coordinates>-79.42583,40.53552,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -2860,7 +2871,7 @@
 					<name>60251384</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.38867000000001,40.56152,0</coordinates>
+						<coordinates>-79.38867,40.56152,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -2895,7 +2906,7 @@
 					<name>60411379</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.40386,40.56616,0</coordinates>
+						<coordinates>-79.40385999999999,40.56616,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -2944,7 +2955,7 @@
 					<name>60651403</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.39364000000001,40.57895,0</coordinates>
+						<coordinates>-79.39364,40.57895,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -2958,7 +2969,7 @@
 					<name>60651406</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.39176000000001,40.58006,0</coordinates>
+						<coordinates>-79.39176,40.58006,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -3112,7 +3123,7 @@
 					<name>60251388</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.38755000000001,40.56195,0</coordinates>
+						<coordinates>-79.38755,40.56195,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -3189,7 +3200,7 @@
 					<name>58491291</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.39364000000001,40.48539,0</coordinates>
+						<coordinates>-79.39364,40.48539,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -3203,21 +3214,21 @@
 					<name>58491293</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.39364000000001,40.48668,0</coordinates>
+						<coordinates>-79.39364,40.48668,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58491294</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.39364000000001,40.48754,0</coordinates>
+						<coordinates>-79.39364,40.48754,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58731304</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.39270000000001,40.49526,0</coordinates>
+						<coordinates>-79.3927,40.49526,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -3252,7 +3263,7 @@
 					<name>59371342</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.38970000000001,40.51818,0</coordinates>
+						<coordinates>-79.3897,40.51818,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -3784,7 +3795,7 @@
 					<name>60491407</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.37064,40.57045,0</coordinates>
+						<coordinates>-79.37063999999999,40.57045,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -3812,7 +3823,7 @@
 					<name>60491404</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.37064,40.56453,0</coordinates>
+						<coordinates>-79.37063999999999,40.56453,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -3903,7 +3914,7 @@
 					<name>59531350</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.38755000000001,40.53002,0</coordinates>
+						<coordinates>-79.38755,40.53002,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -3980,7 +3991,7 @@
 					<name>59531346</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.39158000000001,40.52968,0</coordinates>
+						<coordinates>-79.39158,40.52968,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -4008,7 +4019,7 @@
 					<name>59451346</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.39055000000001,40.52891,0</coordinates>
+						<coordinates>-79.39055,40.52891,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -4036,7 +4047,7 @@
 					<name>59451342</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.39364000000001,40.52788,0</coordinates>
+						<coordinates>-79.39364,40.52788,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -4120,7 +4131,7 @@
 					<name>59771373</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.37373,40.53921,0</coordinates>
+						<coordinates>-79.37372999999999,40.53921,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -4218,7 +4229,7 @@
 					<name>59531360</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.37382,40.52831,0</coordinates>
+						<coordinates>-79.37381999999999,40.52831,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -4673,7 +4684,7 @@
 					<name>58651328</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.36051000000001,40.49166,0</coordinates>
+						<coordinates>-79.36051,40.49166,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -4869,7 +4880,7 @@
 					<name>60731429</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.36867,40.57998,0</coordinates>
+						<coordinates>-79.36866999999999,40.57998,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -5030,7 +5041,7 @@
 					<name>60891436</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.37382,40.58899,0</coordinates>
+						<coordinates>-79.37381999999999,40.58899,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -5093,7 +5104,7 @@
 					<name>60731421</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.37476,40.58221,0</coordinates>
+						<coordinates>-79.37475999999999,40.58221,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -5464,14 +5475,14 @@
 					<name>58411291</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.38867000000001,40.48239,0</coordinates>
+						<coordinates>-79.38867,40.48239,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58411290</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.38952000000001,40.48256,0</coordinates>
+						<coordinates>-79.38952,40.48256,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -5492,7 +5503,7 @@
 					<name>58411287</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.39176000000001,40.4835,0</coordinates>
+						<coordinates>-79.39176,40.4835,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -5590,7 +5601,7 @@
 					<name>58251307</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35751000000001,40.47921,0</coordinates>
+						<coordinates>-79.35751,40.47921,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -5758,14 +5769,14 @@
 					<name>59211346</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.37064,40.50754,0</coordinates>
+						<coordinates>-79.37063999999999,40.50754,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>59211347</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.3697,40.50762,0</coordinates>
+						<coordinates>-79.36969999999999,40.50762,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -5786,7 +5797,7 @@
 					<name>58971333</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.37167,40.50385,0</coordinates>
+						<coordinates>-79.37166999999999,40.50385,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -5800,7 +5811,7 @@
 					<name>58731337</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35451000000001,40.49483,0</coordinates>
+						<coordinates>-79.35451,40.49483,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -5877,7 +5888,7 @@
 					<name>58411326</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35142000000001,40.4884,0</coordinates>
+						<coordinates>-79.35142,40.4884,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -5891,7 +5902,7 @@
 					<name>58411324</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35245000000001,40.48745,0</coordinates>
+						<coordinates>-79.35245,40.48745,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -5905,7 +5916,7 @@
 					<name>58411320</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35742000000001,40.48273,0</coordinates>
+						<coordinates>-79.35742,40.48273,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -6038,28 +6049,28 @@
 					<name>59051351</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35451000000001,40.50659,0</coordinates>
+						<coordinates>-79.35451,40.50659,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>59051352</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35442000000001,40.50736,0</coordinates>
+						<coordinates>-79.35442,40.50736,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>59051353</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35442000000001,40.50814,0</coordinates>
+						<coordinates>-79.35442,40.50814,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>59211364</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35545000000001,40.51483,0</coordinates>
+						<coordinates>-79.35545,40.51483,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -6136,7 +6147,7 @@
 					<name>59131362</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35142000000001,40.51354,0</coordinates>
+						<coordinates>-79.35142,40.51354,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -6171,7 +6182,7 @@
 					<name>59051357</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35442000000001,40.51148,0</coordinates>
+						<coordinates>-79.35442,40.51148,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -6220,7 +6231,7 @@
 					<name>59211378</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.3376,40.51663,0</coordinates>
+						<coordinates>-79.33759999999999,40.51663,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -6290,7 +6301,7 @@
 					<name>59131355</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35648000000001,40.51131,0</coordinates>
+						<coordinates>-79.35648,40.51131,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -6360,7 +6371,7 @@
 					<name>58251309</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35657000000001,40.47818,0</coordinates>
+						<coordinates>-79.35657,40.47818,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -6458,7 +6469,7 @@
 					<name>58251336</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.33657,40.48076,0</coordinates>
+						<coordinates>-79.33656999999999,40.48076,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -6598,7 +6609,7 @@
 					<name>58171321</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.33966,40.47415,0</coordinates>
+						<coordinates>-79.33965999999999,40.47415,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -6626,7 +6637,7 @@
 					<name>58171325</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.3376,40.47252,0</coordinates>
+						<coordinates>-79.33759999999999,40.47252,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -6689,7 +6700,7 @@
 					<name>58251314</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35339000000001,40.47629,0</coordinates>
+						<coordinates>-79.35339,40.47629,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -6717,7 +6728,7 @@
 					<name>58331335</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.3406,40.48299,0</coordinates>
+						<coordinates>-79.34059999999999,40.48299,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -6752,7 +6763,7 @@
 					<name>58251327</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.3406,40.47621,0</coordinates>
+						<coordinates>-79.34059999999999,40.47621,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -6801,14 +6812,14 @@
 					<name>58251334</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.3376,40.4799,0</coordinates>
+						<coordinates>-79.33759999999999,40.4799,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58171326</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.33657,40.47226,0</coordinates>
+						<coordinates>-79.33656999999999,40.47226,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -6920,7 +6931,7 @@
 					<name>58811373</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.32232000000001,40.50144,0</coordinates>
+						<coordinates>-79.32232,40.50144,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -7011,7 +7022,7 @@
 					<name>58251339</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.32335000000001,40.47372,0</coordinates>
+						<coordinates>-79.32335,40.47372,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -7340,7 +7351,7 @@
 					<name>60411405</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.37382,40.56899,0</coordinates>
+						<coordinates>-79.37381999999999,40.56899,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -7368,7 +7379,7 @@
 					<name>60171410</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.36051000000001,40.56221,0</coordinates>
+						<coordinates>-79.36051,40.56221,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -7480,7 +7491,7 @@
 					<name>60491425</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35536000000001,40.56925,0</coordinates>
+						<coordinates>-79.35536,40.56925,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -7571,7 +7582,7 @@
 					<name>59931388</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.36867,40.54805,0</coordinates>
+						<coordinates>-79.36866999999999,40.54805,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -7704,7 +7715,7 @@
 					<name>59851378</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.37073,40.5411,0</coordinates>
+						<coordinates>-79.37072999999999,40.5411,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -7809,21 +7820,21 @@
 					<name>59931394</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35639000000001,40.54401,0</coordinates>
+						<coordinates>-79.35639,40.54401,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>59931395</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35536000000001,40.54419,0</coordinates>
+						<coordinates>-79.35536,40.54419,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>59931396</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35442000000001,40.54419,0</coordinates>
+						<coordinates>-79.35442,40.54419,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -8061,7 +8072,7 @@
 					<name>60811432</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35657000000001,40.58693,0</coordinates>
+						<coordinates>-79.35657,40.58693,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -8075,7 +8086,7 @@
 					<name>60811434</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35742000000001,40.58418,0</coordinates>
+						<coordinates>-79.35742,40.58418,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -8313,7 +8324,7 @@
 					<name>60571433</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35245000000001,40.5738,0</coordinates>
+						<coordinates>-79.35245,40.5738,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -8446,7 +8457,7 @@
 					<name>59931409</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.34163,40.54573,0</coordinates>
+						<coordinates>-79.34162999999999,40.54573,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -8495,7 +8506,7 @@
 					<name>60011405</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.3376,40.54779,0</coordinates>
+						<coordinates>-79.33759999999999,40.54779,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -8705,7 +8716,7 @@
 					<name>61291467</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35657000000001,40.60538,0</coordinates>
+						<coordinates>-79.35657,40.60538,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -8719,7 +8730,7 @@
 					<name>61291469</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35554000000001,40.60633,0</coordinates>
+						<coordinates>-79.35554,40.60633,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -8733,7 +8744,7 @@
 					<name>61371471</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35442000000001,40.60719,0</coordinates>
+						<coordinates>-79.35442,40.60719,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -8747,7 +8758,7 @@
 					<name>61371473</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35348000000001,40.60813,0</coordinates>
+						<coordinates>-79.35348,40.60813,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -8775,7 +8786,7 @@
 					<name>61371477</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35142000000001,40.61002,0</coordinates>
+						<coordinates>-79.35142,40.61002,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -9307,7 +9318,7 @@
 					<name>61211478</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.33966,40.60212,0</coordinates>
+						<coordinates>-79.33965999999999,40.60212,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -9363,7 +9374,7 @@
 					<name>61131470</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.3406,40.5962,0</coordinates>
+						<coordinates>-79.34059999999999,40.5962,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -9398,7 +9409,7 @@
 					<name>61131475</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.33863,40.59895,0</coordinates>
+						<coordinates>-79.33862999999999,40.59895,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -9482,7 +9493,7 @@
 					<name>61211473</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.34163,40.5944,0</coordinates>
+						<coordinates>-79.34162999999999,40.5944,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -9601,14 +9612,14 @@
 					<name>60731454</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.33554,40.57903,0</coordinates>
+						<coordinates>-79.33553999999999,40.57903,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>60731457</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.33657,40.57895,0</coordinates>
+						<coordinates>-79.33656999999999,40.57895,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -9706,7 +9717,7 @@
 					<name>60491450</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.32438000000001,40.57088,0</coordinates>
+						<coordinates>-79.32438,40.57088,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -9734,7 +9745,7 @@
 					<name>60571444</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.3376,40.57551,0</coordinates>
+						<coordinates>-79.33759999999999,40.57551,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -9783,7 +9794,7 @@
 					<name>60651450</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.3406,40.57938,0</coordinates>
+						<coordinates>-79.34059999999999,40.57938,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -9958,7 +9969,7 @@
 					<name>60251460</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.3055,40.56195,0</coordinates>
+						<coordinates>-79.30549999999999,40.56195,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -10112,7 +10123,7 @@
 					<name>59291382</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.33751,40.52007,0</coordinates>
+						<coordinates>-79.33750999999999,40.52007,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -10140,14 +10151,14 @@
 					<name>59291367</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35751000000001,40.5223,0</coordinates>
+						<coordinates>-79.35751,40.5223,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>59291368</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35742000000001,40.52299,0</coordinates>
+						<coordinates>-79.35742,40.52299,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -10217,7 +10228,7 @@
 					<name>59451368</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.35451000000001,40.5259,0</coordinates>
+						<coordinates>-79.35451,40.5259,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -10469,14 +10480,14 @@
 					<name>59771420</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.32438000000001,40.53929,0</coordinates>
+						<coordinates>-79.32438,40.53929,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>59771421</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.32335000000001,40.53929,0</coordinates>
+						<coordinates>-79.32335,40.53929,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -10658,7 +10669,7 @@
 					<name>58731364</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.32532000000001,40.49603,0</coordinates>
+						<coordinates>-79.32532,40.49603,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -10672,14 +10683,14 @@
 					<name>58651367</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.32326000000001,40.49621,0</coordinates>
+						<coordinates>-79.32326,40.49621,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58651366</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.32335000000001,40.49543,0</coordinates>
+						<coordinates>-79.32335,40.49543,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -10700,7 +10711,7 @@
 					<name>58491358</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.32026000000001,40.48522,0</coordinates>
+						<coordinates>-79.32026,40.48522,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -10938,7 +10949,7 @@
 					<name>59691435</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.30035,40.53723,0</coordinates>
+						<coordinates>-79.30034999999999,40.53723,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -11064,14 +11075,14 @@
 					<name>58811388</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.30429,40.50067,0</coordinates>
+						<coordinates>-79.30428999999999,40.50067,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58811389</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.30438,40.50153,0</coordinates>
+						<coordinates>-79.30437999999999,40.50153,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -11169,7 +11180,7 @@
 					<name>58971390</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.30841,40.50848,0</coordinates>
+						<coordinates>-79.30840999999999,40.50848,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -11386,7 +11397,7 @@
 					<name>59051413</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.29116000000001,40.512,0</coordinates>
+						<coordinates>-79.29116,40.512,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -11680,7 +11691,7 @@
 					<name>58091352</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.30241,40.47071,0</coordinates>
+						<coordinates>-79.30240999999999,40.47071,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -11694,7 +11705,7 @@
 					<name>58331364</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.30326,40.47149,0</coordinates>
+						<coordinates>-79.30325999999999,40.47149,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -11722,14 +11733,14 @@
 					<name>58571375</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.30635,40.49131,0</coordinates>
+						<coordinates>-79.30634999999999,40.49131,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58491369</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.30532,40.48797,0</coordinates>
+						<coordinates>-79.30531999999999,40.48797,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -11848,7 +11859,7 @@
 					<name>58251370</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.29013000000001,40.47509,0</coordinates>
+						<coordinates>-79.29013,40.47509,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -11939,7 +11950,7 @@
 					<name>58011348</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.30429,40.46488,0</coordinates>
+						<coordinates>-79.30428999999999,40.46488,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -11953,14 +11964,14 @@
 					<name>58011346</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.30541,40.46556,0</coordinates>
+						<coordinates>-79.30540999999999,40.46556,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58011345</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.30644,40.46565,0</coordinates>
+						<coordinates>-79.30643999999999,40.46565,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -12394,7 +12405,7 @@
 					<name>61211491</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.32335000000001,40.60109,0</coordinates>
+						<coordinates>-79.32335,40.60109,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -12555,7 +12566,7 @@
 					<name>61691514</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.32532000000001,40.62384,0</coordinates>
+						<coordinates>-79.32532,40.62384,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -12807,7 +12818,7 @@
 					<name>61211506</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.30635,40.60126,0</coordinates>
+						<coordinates>-79.30634999999999,40.60126,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -12849,7 +12860,7 @@
 					<name>61211511</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.30138,40.60178,0</coordinates>
+						<coordinates>-79.30137999999999,40.60178,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -12877,7 +12888,7 @@
 					<name>61131506</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.30532,40.60049,0</coordinates>
+						<coordinates>-79.30531999999999,40.60049,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -12961,7 +12972,7 @@
 					<name>60971479</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.32223000000001,40.59019,0</coordinates>
+						<coordinates>-79.32223,40.59019,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -13143,7 +13154,7 @@
 					<name>60811483</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.30738,40.58839,0</coordinates>
+						<coordinates>-79.30737999999999,40.58839,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -13472,14 +13483,14 @@
 					<name>61451521</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.30138,40.61577,0</coordinates>
+						<coordinates>-79.30137999999999,40.61577,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>61451522</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.30138,40.61491,0</coordinates>
+						<coordinates>-79.30137999999999,40.61491,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -13535,14 +13546,14 @@
 					<name>61371519</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.30326,40.60976,0</coordinates>
+						<coordinates>-79.30325999999999,40.60976,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>61371518</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.30344,40.60907,0</coordinates>
+						<coordinates>-79.30343999999999,40.60907,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -13794,7 +13805,7 @@
 					<name>60651499</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.28910000000001,40.58264,0</coordinates>
+						<coordinates>-79.2891,40.58264,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -13822,7 +13833,7 @@
 					<name>60651503</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.28713000000001,40.58453,0</coordinates>
+						<coordinates>-79.28713,40.58453,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -13836,7 +13847,7 @@
 					<name>60731503</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.28404000000001,40.58255,0</coordinates>
+						<coordinates>-79.28404,40.58255,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -14151,7 +14162,7 @@
 					<name>61611545</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.28807000000001,40.62049,0</coordinates>
+						<coordinates>-79.28807,40.62049,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -14235,7 +14246,7 @@
 					<name>61851570</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.27228,40.63096,0</coordinates>
+						<coordinates>-79.27227999999999,40.63096,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -14354,14 +14365,14 @@
 					<name>61851572</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.27013,40.62744,0</coordinates>
+						<coordinates>-79.27012999999999,40.62744,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>61851573</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26919,40.62761,0</coordinates>
+						<coordinates>-79.26918999999999,40.62761,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -14431,14 +14442,14 @@
 					<name>62331596</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.2691,40.6525,0</coordinates>
+						<coordinates>-79.26909999999999,40.6525,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>62331597</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.27022,40.65079,0</coordinates>
+						<coordinates>-79.27021999999999,40.65079,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -14466,7 +14477,7 @@
 					<name>62251597</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26619,40.64701,0</coordinates>
+						<coordinates>-79.26618999999999,40.64701,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -14501,7 +14512,7 @@
 					<name>62331595</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.27322,40.65156,0</coordinates>
+						<coordinates>-79.27321999999999,40.65156,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -14529,7 +14540,7 @@
 					<name>61611562</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.27022,40.6216,0</coordinates>
+						<coordinates>-79.27021999999999,40.6216,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -14571,7 +14582,7 @@
 					<name>61211539</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.27125,40.60307,0</coordinates>
+						<coordinates>-79.27124999999999,40.60307,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -14683,7 +14694,7 @@
 					<name>61611566</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26619,40.62203,0</coordinates>
+						<coordinates>-79.26618999999999,40.62203,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -14753,7 +14764,7 @@
 					<name>61131538</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26619,40.59852,0</coordinates>
+						<coordinates>-79.26618999999999,40.59852,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -14844,7 +14855,7 @@
 					<name>61051534</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26722,40.59594,0</coordinates>
+						<coordinates>-79.26721999999999,40.59594,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -15068,7 +15079,7 @@
 					<name>61531569</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.25391000000001,40.61568,0</coordinates>
+						<coordinates>-79.25391,40.61568,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -15096,7 +15107,7 @@
 					<name>61611573</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.25391000000001,40.6192,0</coordinates>
+						<coordinates>-79.25391,40.6192,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -15943,7 +15954,7 @@
 					<name>58811420</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.27022,40.50239,0</coordinates>
+						<coordinates>-79.27021999999999,40.50239,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -16055,7 +16066,7 @@
 					<name>58891439</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.25597000000001,40.50771,0</coordinates>
+						<coordinates>-79.25597,40.50771,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -16090,14 +16101,14 @@
 					<name>58971444</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.25297000000001,40.50977,0</coordinates>
+						<coordinates>-79.25297,40.50977,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58971502</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.24988000000001,40.51063,0</coordinates>
+						<coordinates>-79.24988,40.51063,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -16160,7 +16171,7 @@
 					<name>58891425</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26816,40.50505,0</coordinates>
+						<coordinates>-79.26815999999999,40.50505,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -16524,14 +16535,14 @@
 					<name>58571436</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23597,40.49054,0</coordinates>
+						<coordinates>-79.23596999999999,40.49054,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58571437</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23606,40.49149,0</coordinates>
+						<coordinates>-79.23605999999999,40.49149,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -16594,7 +16605,7 @@
 					<name>60251472</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.28816000000001,40.55929,0</coordinates>
+						<coordinates>-79.28816,40.55929,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -16608,7 +16619,7 @@
 					<name>60251474</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.28807000000001,40.56092,0</coordinates>
+						<coordinates>-79.28807,40.56092,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -16657,7 +16668,7 @@
 					<name>59211411</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.28919000000001,40.5132,0</coordinates>
+						<coordinates>-79.28919,40.5132,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -16720,7 +16731,7 @@
 					<name>60011459</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.28919000000001,40.54916,0</coordinates>
+						<coordinates>-79.28919,40.54916,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -16881,7 +16892,7 @@
 					<name>60251478</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.28713000000001,40.56006,0</coordinates>
+						<coordinates>-79.28713,40.56006,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -17007,7 +17018,7 @@
 					<name>60491501</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.27013,40.57036,0</coordinates>
+						<coordinates>-79.27012999999999,40.57036,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -17112,7 +17123,7 @@
 					<name>59371445</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26713,40.52805,0</coordinates>
+						<coordinates>-79.26712999999999,40.52805,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -17126,14 +17137,14 @@
 					<name>59371447</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26713,40.52633,0</coordinates>
+						<coordinates>-79.26712999999999,40.52633,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>59371448</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26722,40.52539,0</coordinates>
+						<coordinates>-79.26721999999999,40.52539,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -18092,7 +18103,7 @@
 					<name>59051463</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23512,40.50994,0</coordinates>
+						<coordinates>-79.23511999999999,40.50994,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -18134,7 +18145,7 @@
 					<name>59211472</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23203,40.51792,0</coordinates>
+						<coordinates>-79.23202999999999,40.51792,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -18211,7 +18222,7 @@
 					<name>58731432</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.25091000000001,40.49809,0</coordinates>
+						<coordinates>-79.25091,40.49809,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -18351,7 +18362,7 @@
 					<name>59051468</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.231,40.50882,0</coordinates>
+						<coordinates>-79.23099999999999,40.50882,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -18414,7 +18425,7 @@
 					<name>61051564</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23391,40.59654,0</coordinates>
+						<coordinates>-79.23390999999999,40.59654,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -18428,7 +18439,7 @@
 					<name>61051562</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23391,40.59491,0</coordinates>
+						<coordinates>-79.23390999999999,40.59491,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -18449,7 +18460,7 @@
 					<name>60971562</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23306,40.59234,0</coordinates>
+						<coordinates>-79.23305999999999,40.59234,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -18722,7 +18733,7 @@
 					<name>60811554</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23512,40.58727,0</coordinates>
+						<coordinates>-79.23511999999999,40.58727,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -18736,7 +18747,7 @@
 					<name>60811553</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.234,40.58547,0</coordinates>
+						<coordinates>-79.23399999999999,40.58547,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -18848,7 +18859,7 @@
 					<name>60891636</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21975000000001,40.57414,0</coordinates>
+						<coordinates>-79.21975,40.57414,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -18911,7 +18922,7 @@
 					<name>60731559</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.22078000000001,40.58264,0</coordinates>
+						<coordinates>-79.22078,40.58264,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -18925,7 +18936,7 @@
 					<name>60731561</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21975000000001,40.58358,0</coordinates>
+						<coordinates>-79.21975,40.58358,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -18946,7 +18957,7 @@
 					<name>60731549</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23306,40.58281,0</coordinates>
+						<coordinates>-79.23305999999999,40.58281,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -19002,7 +19013,7 @@
 					<name>60571533</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23906,40.57431,0</coordinates>
+						<coordinates>-79.23905999999999,40.57431,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -19191,7 +19202,7 @@
 					<name>60571541</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23597,40.57886,0</coordinates>
+						<coordinates>-79.23596999999999,40.57886,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -19366,7 +19377,7 @@
 					<name>59371510</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21881000000001,40.5308,0</coordinates>
+						<coordinates>-79.21881,40.5308,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -19576,7 +19587,7 @@
 					<name>59611492</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.231,40.53655,0</coordinates>
+						<coordinates>-79.23099999999999,40.53655,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -19604,7 +19615,7 @@
 					<name>59691494</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23494,40.53869,0</coordinates>
+						<coordinates>-79.23493999999999,40.53869,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -19618,7 +19629,7 @@
 					<name>59691492</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23597,40.53964,0</coordinates>
+						<coordinates>-79.23596999999999,40.53964,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -19632,7 +19643,7 @@
 					<name>59611489</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23306,40.53758,0</coordinates>
+						<coordinates>-79.23305999999999,40.53758,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -19842,14 +19853,14 @@
 					<name>59371503</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21872000000001,40.52032,0</coordinates>
+						<coordinates>-79.21872,40.52032,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>59291491</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21778000000001,40.52007,0</coordinates>
+						<coordinates>-79.21778,40.52007,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -20038,7 +20049,7 @@
 					<name>59291520</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.237,40.51114,0</coordinates>
+						<coordinates>-79.23699999999999,40.51114,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -20248,7 +20259,7 @@
 					<name>60571655</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21666000000001,40.5574,0</coordinates>
+						<coordinates>-79.21666,40.5574,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -20290,7 +20301,7 @@
 					<name>60571609</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21666000000001,40.5629,0</coordinates>
+						<coordinates>-79.21666,40.5629,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -20514,7 +20525,7 @@
 					<name>57771362</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.27322,40.45595,0</coordinates>
+						<coordinates>-79.27321999999999,40.45595,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -20535,14 +20546,14 @@
 					<name>57851367</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.27228,40.45938,0</coordinates>
+						<coordinates>-79.27227999999999,40.45938,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>57851368</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.27219,40.46016,0</coordinates>
+						<coordinates>-79.27218999999999,40.46016,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -20570,7 +20581,7 @@
 					<name>57851372</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.2691,40.45784,0</coordinates>
+						<coordinates>-79.26909999999999,40.45784,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -20584,7 +20595,7 @@
 					<name>57851374</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26619,40.45741,0</coordinates>
+						<coordinates>-79.26618999999999,40.45741,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -20668,7 +20679,7 @@
 					<name>57611371</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.25597000000001,40.45072,0</coordinates>
+						<coordinates>-79.25597,40.45072,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -20724,7 +20735,7 @@
 					<name>57771384</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.25288000000001,40.45938,0</coordinates>
+						<coordinates>-79.25288,40.45938,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -20759,7 +20770,7 @@
 					<name>57771379</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.25597000000001,40.4575,0</coordinates>
+						<coordinates>-79.25597,40.4575,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -20829,7 +20840,7 @@
 					<name>57691374</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.25391000000001,40.45166,0</coordinates>
+						<coordinates>-79.25391,40.45166,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -20955,14 +20966,14 @@
 					<name>57611359</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26919,40.45037,0</coordinates>
+						<coordinates>-79.26918999999999,40.45037,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>57611360</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26825,40.45054,0</coordinates>
+						<coordinates>-79.26824999999999,40.45054,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -21137,7 +21148,7 @@
 					<name>57531355</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26816,40.44557,0</coordinates>
+						<coordinates>-79.26815999999999,40.44557,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -21151,7 +21162,7 @@
 					<name>57611361</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26928,40.44651,0</coordinates>
+						<coordinates>-79.26927999999999,40.44651,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -21214,7 +21225,7 @@
 					<name>57771420</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.231,40.4478,0</coordinates>
+						<coordinates>-79.23099999999999,40.4478,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -21312,14 +21323,14 @@
 					<name>57771396</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.237,40.45775,0</coordinates>
+						<coordinates>-79.23699999999999,40.45775,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>57851394</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.237,40.4629,0</coordinates>
+						<coordinates>-79.23699999999999,40.4629,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -21361,7 +21372,7 @@
 					<name>57771395</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.237,40.45681,0</coordinates>
+						<coordinates>-79.23699999999999,40.45681,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -21424,7 +21435,7 @@
 					<name>57531386</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23597,40.44857,0</coordinates>
+						<coordinates>-79.23596999999999,40.44857,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -21473,7 +21484,7 @@
 					<name>57531383</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23803,40.44754,0</coordinates>
+						<coordinates>-79.23802999999999,40.44754,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -21508,7 +21519,7 @@
 					<name>57931404</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23615,40.46376,0</coordinates>
+						<coordinates>-79.23614999999999,40.46376,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -21522,7 +21533,7 @@
 					<name>57931401</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23615,40.46462,0</coordinates>
+						<coordinates>-79.23614999999999,40.46462,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -21830,7 +21841,7 @@
 					<name>57371380</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23203,40.43853,0</coordinates>
+						<coordinates>-79.23202999999999,40.43853,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -21858,14 +21869,14 @@
 					<name>57371376</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23503,40.43947,0</coordinates>
+						<coordinates>-79.23502999999999,40.43947,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>57371375</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23597,40.4393,0</coordinates>
+						<coordinates>-79.23596999999999,40.4393,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -21956,7 +21967,7 @@
 					<name>57611402</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21769000000001,40.44848,0</coordinates>
+						<coordinates>-79.21769,40.44848,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -21970,7 +21981,7 @@
 					<name>57611400</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21872000000001,40.44737,0</coordinates>
+						<coordinates>-79.21872,40.44737,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -21984,7 +21995,7 @@
 					<name>57611398</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21975000000001,40.44668,0</coordinates>
+						<coordinates>-79.21975,40.44668,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -22054,7 +22065,7 @@
 					<name>57611404</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21666000000001,40.44943,0</coordinates>
+						<coordinates>-79.21666,40.44943,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -22159,7 +22170,7 @@
 					<name>57931431</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.2019,40.46119,0</coordinates>
+						<coordinates>-79.20189999999999,40.46119,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -22789,7 +22800,7 @@
 					<name>56971413</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.19975,40.43604,0</coordinates>
+						<coordinates>-79.19974999999999,40.43604,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -22831,7 +22842,7 @@
 					<name>57291400</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.2019,40.43793,0</coordinates>
+						<coordinates>-79.20189999999999,40.43793,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -23195,7 +23206,7 @@
 					<name>58011425</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.20284,40.46445,0</coordinates>
+						<coordinates>-79.20283999999999,40.46445,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -23300,7 +23311,7 @@
 					<name>58331368</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.28704000000001,40.47715,0</coordinates>
+						<coordinates>-79.28704,40.47715,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -23342,7 +23353,7 @@
 					<name>57851379</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26816,40.45767,0</coordinates>
+						<coordinates>-79.26815999999999,40.45767,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -23377,7 +23388,7 @@
 					<name>57931376</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.27125,40.46368,0</coordinates>
+						<coordinates>-79.27124999999999,40.46368,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -23405,7 +23416,7 @@
 					<name>58171387</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26713,40.47235,0</coordinates>
+						<coordinates>-79.26712999999999,40.47235,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -23475,7 +23486,7 @@
 					<name>58171391</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26516,40.47432,0</coordinates>
+						<coordinates>-79.26515999999999,40.47432,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -23503,7 +23514,7 @@
 					<name>58011383</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26713,40.46908,0</coordinates>
+						<coordinates>-79.26712999999999,40.46908,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -23846,7 +23857,7 @@
 					<name>58251387</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.27425,40.48771,0</coordinates>
+						<coordinates>-79.27424999999999,40.48771,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -23895,7 +23906,7 @@
 					<name>58491401</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.2691,40.48565,0</coordinates>
+						<coordinates>-79.26909999999999,40.48565,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -23930,7 +23941,7 @@
 					<name>58571407</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26928,40.4908,0</coordinates>
+						<coordinates>-79.26927999999999,40.4908,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -23965,7 +23976,7 @@
 					<name>58091387</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26619,40.47166,0</coordinates>
+						<coordinates>-79.26618999999999,40.47166,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -23979,7 +23990,7 @@
 					<name>58091384</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26825,40.47071,0</coordinates>
+						<coordinates>-79.26824999999999,40.47071,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -24042,7 +24053,7 @@
 					<name>58411412</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.25400000000001,40.48368,0</coordinates>
+						<coordinates>-79.254,40.48368,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -24077,7 +24088,7 @@
 					<name>58331407</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.25503000000001,40.48024,0</coordinates>
+						<coordinates>-79.25503,40.48024,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -24308,7 +24319,7 @@
 					<name>58331393</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26825,40.48204,0</coordinates>
+						<coordinates>-79.26824999999999,40.48204,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -24385,7 +24396,7 @@
 					<name>58091407</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.24988000000001,40.47458,0</coordinates>
+						<coordinates>-79.24988,40.47458,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -24434,7 +24445,7 @@
 					<name>58091380</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.26825,40.46728,0</coordinates>
+						<coordinates>-79.26824999999999,40.46728,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -24588,7 +24599,7 @@
 					<name>58011394</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.25297000000001,40.4678,0</coordinates>
+						<coordinates>-79.25297,40.4678,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -24623,7 +24634,7 @@
 					<name>58411429</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23512,40.48402,0</coordinates>
+						<coordinates>-79.23511999999999,40.48402,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -24665,7 +24676,7 @@
 					<name>58411432</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23306,40.48505,0</coordinates>
+						<coordinates>-79.23305999999999,40.48505,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -24889,7 +24900,7 @@
 					<name>58411446</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21881000000001,40.48196,0</coordinates>
+						<coordinates>-79.21881,40.48196,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -25099,7 +25110,7 @@
 					<name>57931410</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.231,40.46514,0</coordinates>
+						<coordinates>-79.23099999999999,40.46514,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -25176,7 +25187,7 @@
 					<name>58091428</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21769000000001,40.47029,0</coordinates>
+						<coordinates>-79.21769,40.47029,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -25330,7 +25341,7 @@
 					<name>58171430</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.22181000000001,40.47492,0</coordinates>
+						<coordinates>-79.22181,40.47492,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -25344,7 +25355,7 @@
 					<name>58411455</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.2049,40.48513,0</coordinates>
+						<coordinates>-79.20489999999999,40.48513,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -25365,7 +25376,7 @@
 					<name>58411458</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.20387,40.48333,0</coordinates>
+						<coordinates>-79.20386999999999,40.48333,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -25400,7 +25411,7 @@
 					<name>58331438</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21666000000001,40.47792,0</coordinates>
+						<coordinates>-79.21666,40.47792,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -25582,7 +25593,7 @@
 					<name>61131567</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.234,40.60289,0</coordinates>
+						<coordinates>-79.23399999999999,40.60289,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -25631,7 +25642,7 @@
 					<name>61451567</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.25194000000001,40.61294,0</coordinates>
+						<coordinates>-79.25194,40.61294,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -25645,7 +25656,7 @@
 					<name>61531588</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23409,40.61757,0</coordinates>
+						<coordinates>-79.23408999999999,40.61757,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -25687,7 +25698,7 @@
 					<name>61371589</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23409,40.61242,0</coordinates>
+						<coordinates>-79.23408999999999,40.61242,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -25701,7 +25712,7 @@
 					<name>61371587</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23306,40.61053,0</coordinates>
+						<coordinates>-79.23305999999999,40.61053,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -25722,7 +25733,7 @@
 					<name>61291583</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23494,40.6047,0</coordinates>
+						<coordinates>-79.23493999999999,40.6047,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -25736,7 +25747,7 @@
 					<name>61211570</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23906,40.60538,0</coordinates>
+						<coordinates>-79.23905999999999,40.60538,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -25785,7 +25796,7 @@
 					<name>61291576</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23597,40.60564,0</coordinates>
+						<coordinates>-79.23596999999999,40.60564,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -25855,7 +25866,7 @@
 					<name>61371584</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23203,40.60882,0</coordinates>
+						<coordinates>-79.23202999999999,40.60882,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -25939,14 +25950,14 @@
 					<name>61451586</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23391,40.61508,0</coordinates>
+						<coordinates>-79.23390999999999,40.61508,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>61451585</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.234,40.61431,0</coordinates>
+						<coordinates>-79.23399999999999,40.61431,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -26002,7 +26013,7 @@
 					<name>61691577</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.25194000000001,40.62075,0</coordinates>
+						<coordinates>-79.25194,40.62075,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -26128,7 +26139,7 @@
 					<name>61611590</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23494,40.62203,0</coordinates>
+						<coordinates>-79.23493999999999,40.62203,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -26163,7 +26174,7 @@
 					<name>61531586</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23409,40.61912,0</coordinates>
+						<coordinates>-79.23408999999999,40.61912,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -26240,14 +26251,14 @@
 					<name>61691592</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23906,40.62392,0</coordinates>
+						<coordinates>-79.23905999999999,40.62392,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>61691593</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23803,40.62418,0</coordinates>
+						<coordinates>-79.23802999999999,40.62418,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -26261,7 +26272,7 @@
 					<name>61771597</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23906,40.62813,0</coordinates>
+						<coordinates>-79.23905999999999,40.62813,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -26275,7 +26286,7 @@
 					<name>61851600</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23709,40.62907,0</coordinates>
+						<coordinates>-79.23708999999999,40.62907,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -26289,7 +26300,7 @@
 					<name>61851602</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23512,40.62924,0</coordinates>
+						<coordinates>-79.23511999999999,40.62924,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -26331,7 +26342,7 @@
 					<name>61771623</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21881000000001,40.63482,0</coordinates>
+						<coordinates>-79.21881,40.63482,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -26443,14 +26454,14 @@
 					<name>62011610</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23512,40.63611,0</coordinates>
+						<coordinates>-79.23511999999999,40.63611,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>62011609</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23597,40.63585,0</coordinates>
+						<coordinates>-79.23596999999999,40.63585,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -26520,7 +26531,7 @@
 					<name>61851603</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23391,40.62924,0</coordinates>
+						<coordinates>-79.23390999999999,40.62924,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -26723,7 +26734,7 @@
 					<name>61851622</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21675000000001,40.6295,0</coordinates>
+						<coordinates>-79.21675,40.6295,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -26744,7 +26755,7 @@
 					<name>61851619</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21881000000001,40.63053,0</coordinates>
+						<coordinates>-79.21881,40.63053,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -26765,14 +26776,14 @@
 					<name>61851615</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.22181000000001,40.63045,0</coordinates>
+						<coordinates>-79.22181,40.63045,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>61851616</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.22078000000001,40.63053,0</coordinates>
+						<coordinates>-79.22078,40.63053,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -26828,7 +26839,7 @@
 					<name>60971578</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21975000000001,40.59328,0</coordinates>
+						<coordinates>-79.21975,40.59328,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -26968,21 +26979,21 @@
 					<name>60891573</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21675000000001,40.59156,0</coordinates>
+						<coordinates>-79.21675,40.59156,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>60891572</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21778000000001,40.59148,0</coordinates>
+						<coordinates>-79.21778,40.59148,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>60891571</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21872000000001,40.59139,0</coordinates>
+						<coordinates>-79.21872,40.59139,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -26996,7 +27007,7 @@
 					<name>60891566</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21975000000001,40.59234,0</coordinates>
+						<coordinates>-79.21975,40.59234,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -27010,7 +27021,7 @@
 					<name>61531591</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.23203,40.61663,0</coordinates>
+						<coordinates>-79.23202999999999,40.61663,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -27094,7 +27105,7 @@
 					<name>60971574</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21984000000001,40.59448,0</coordinates>
+						<coordinates>-79.21984,40.59448,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -27402,7 +27413,7 @@
 					<name>60971577</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21984000000001,40.59371,0</coordinates>
+						<coordinates>-79.21984,40.59371,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -27507,7 +27518,7 @@
 					<name>60971669</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.2019,40.57963,0</coordinates>
+						<coordinates>-79.20189999999999,40.57963,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -27570,14 +27581,14 @@
 					<name>60731574</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.2019,40.58135,0</coordinates>
+						<coordinates>-79.20189999999999,40.58135,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>60731575</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.20181,40.58212,0</coordinates>
+						<coordinates>-79.20180999999999,40.58212,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -27745,14 +27756,14 @@
 					<name>61371602</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21666000000001,40.60229,0</coordinates>
+						<coordinates>-79.21666,40.60229,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>61371603</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21572000000001,40.60255,0</coordinates>
+						<coordinates>-79.21572,40.60255,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -27927,14 +27938,14 @@
 					<name>60731579</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.20181,40.58496,0</coordinates>
+						<coordinates>-79.20180999999999,40.58496,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>60731580</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.20284,40.58487,0</coordinates>
+						<coordinates>-79.20283999999999,40.58487,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -27948,7 +27959,7 @@
 					<name>60891585</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.20293,40.59131,0</coordinates>
+						<coordinates>-79.20292999999999,40.59131,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -27962,7 +27973,7 @@
 					<name>60891587</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.2019,40.59225,0</coordinates>
+						<coordinates>-79.20189999999999,40.59225,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -28025,7 +28036,7 @@
 					<name>61131598</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.20293,40.59877,0</coordinates>
+						<coordinates>-79.20292999999999,40.59877,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -28053,7 +28064,7 @@
 					<name>61131602</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.20078,40.59689,0</coordinates>
+						<coordinates>-79.20077999999999,40.59689,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -28116,14 +28127,14 @@
 					<name>61371624</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18550000000001,40.61062,0</coordinates>
+						<coordinates>-79.1855,40.61062,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>61371626</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18353000000001,40.61148,0</coordinates>
+						<coordinates>-79.18353,40.61148,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -28333,7 +28344,7 @@
 					<name>61531612</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.20284,40.61234,0</coordinates>
+						<coordinates>-79.20283999999999,40.61234,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -28375,7 +28386,7 @@
 					<name>61291620</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18156000000001,40.61028,0</coordinates>
+						<coordinates>-79.18156,40.61028,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -28396,7 +28407,7 @@
 					<name>61291623</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18053000000001,40.60856,0</coordinates>
+						<coordinates>-79.18053,40.60856,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -28473,21 +28484,21 @@
 					<name>61291617</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18859000000001,40.60744,0</coordinates>
+						<coordinates>-79.18859,40.60744,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>61291616</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18859000000001,40.6083,0</coordinates>
+						<coordinates>-79.18859,40.6083,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>61291615</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18859000000001,40.60907,0</coordinates>
+						<coordinates>-79.18859,40.60907,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -28557,7 +28568,7 @@
 					<name>60091561</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18756000000001,40.55354,0</coordinates>
+						<coordinates>-79.18756,40.55354,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -28571,7 +28582,7 @@
 					<name>59851552</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18362000000001,40.55019,0</coordinates>
+						<coordinates>-79.18362,40.55019,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -28648,7 +28659,7 @@
 					<name>60731664</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18447000000001,40.56015,0</coordinates>
+						<coordinates>-79.18447,40.56015,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -28704,14 +28715,14 @@
 					<name>60411636</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18756000000001,40.5556,0</coordinates>
+						<coordinates>-79.18756,40.5556,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>60331621</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18859000000001,40.55706,0</coordinates>
+						<coordinates>-79.18859,40.55706,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -28879,7 +28890,7 @@
 					<name>61211614</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18653000000001,40.6047,0</coordinates>
+						<coordinates>-79.18653,40.6047,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -28900,7 +28911,7 @@
 					<name>61211617</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18456000000001,40.6047,0</coordinates>
+						<coordinates>-79.18456,40.6047,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -28914,7 +28925,7 @@
 					<name>61211619</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18353000000001,40.60547,0</coordinates>
+						<coordinates>-79.18353,40.60547,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -28963,7 +28974,7 @@
 					<name>61211601</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18653000000001,40.60358,0</coordinates>
+						<coordinates>-79.18653,40.60358,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -29012,7 +29023,7 @@
 					<name>60971595</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18653000000001,40.58736,0</coordinates>
+						<coordinates>-79.18653,40.58736,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -29173,7 +29184,7 @@
 					<name>61211605</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18456000000001,40.60272,0</coordinates>
+						<coordinates>-79.18456,40.60272,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -29187,7 +29198,7 @@
 					<name>60971596</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18550000000001,40.5877,0</coordinates>
+						<coordinates>-79.1855,40.5877,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -29215,7 +29226,7 @@
 					<name>61051593</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18053000000001,40.58993,0</coordinates>
+						<coordinates>-79.18053,40.58993,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -29355,7 +29366,7 @@
 					<name>59851535</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.19778,40.54556,0</coordinates>
+						<coordinates>-79.19777999999999,40.54556,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -29565,7 +29576,7 @@
 					<name>59131506</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21572000000001,40.50831,0</coordinates>
+						<coordinates>-79.21572,40.50831,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -29663,7 +29674,7 @@
 					<name>59051497</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.19778,40.50985,0</coordinates>
+						<coordinates>-79.19777999999999,40.50985,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -29810,7 +29821,7 @@
 					<name>58971487</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.20387,40.50968,0</coordinates>
+						<coordinates>-79.20386999999999,40.50968,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -29971,7 +29982,7 @@
 					<name>59531521</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.19881,40.53457,0</coordinates>
+						<coordinates>-79.19880999999999,40.53457,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -29992,7 +30003,7 @@
 					<name>59531518</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.20087,40.53354,0</coordinates>
+						<coordinates>-79.20086999999999,40.53354,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -30363,7 +30374,7 @@
 					<name>59211498</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.2049,40.51723,0</coordinates>
+						<coordinates>-79.20489999999999,40.51723,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -30860,7 +30871,7 @@
 					<name>60491648</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21572000000001,40.55294,0</coordinates>
+						<coordinates>-79.21572,40.55294,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -31014,7 +31025,7 @@
 					<name>60891639</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.21778000000001,40.57311,0</coordinates>
+						<coordinates>-79.21778,40.57311,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -31147,7 +31158,7 @@
 					<name>59851547</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18259000000001,40.54788,0</coordinates>
+						<coordinates>-79.18259,40.54788,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -31161,7 +31172,7 @@
 					<name>59771544</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18053000000001,40.54513,0</coordinates>
+						<coordinates>-79.18053,40.54513,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -31287,7 +31298,7 @@
 					<name>59611532</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18447000000001,40.53509,0</coordinates>
+						<coordinates>-79.18447,40.53509,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -31455,14 +31466,14 @@
 					<name>59531532</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18465000000001,40.53672,0</coordinates>
+						<coordinates>-79.18465,40.53672,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>59531533</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18447000000001,40.53741,0</coordinates>
+						<coordinates>-79.18447,40.53741,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -31476,14 +31487,14 @@
 					<name>59771540</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18765000000001,40.5423,0</coordinates>
+						<coordinates>-79.18765,40.5423,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>59691532</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18859000000001,40.54221,0</coordinates>
+						<coordinates>-79.18859,40.54221,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -31833,7 +31844,7 @@
 					<name>59851563</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.16568,40.54813,0</coordinates>
+						<coordinates>-79.16567999999999,40.54813,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -31931,7 +31942,7 @@
 					<name>59931583</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.14843000000001,40.54951,0</coordinates>
+						<coordinates>-79.14843,40.54951,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -31945,7 +31956,7 @@
 					<name>59931581</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.15049000000001,40.54934,0</coordinates>
+						<coordinates>-79.15049,40.54934,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -31966,7 +31977,7 @@
 					<name>59851577</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.15237000000001,40.54813,0</coordinates>
+						<coordinates>-79.15237,40.54813,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -32036,7 +32047,7 @@
 					<name>60171587</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.16465,40.56461,0</coordinates>
+						<coordinates>-79.16464999999999,40.56461,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -32064,21 +32075,21 @@
 					<name>60171580</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.16559,40.56041,0</coordinates>
+						<coordinates>-79.16558999999999,40.56041,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>60171581</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.16568,40.55946,0</coordinates>
+						<coordinates>-79.16567999999999,40.55946,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>60171582</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.16568,40.55878,0</coordinates>
+						<coordinates>-79.16567999999999,40.55878,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -32218,7 +32229,7 @@
 					<name>60011590</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.14946000000001,40.55612,0</coordinates>
+						<coordinates>-79.14946,40.55612,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -32239,7 +32250,7 @@
 					<name>60011587</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.15134000000001,40.555,0</coordinates>
+						<coordinates>-79.15134,40.555,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -32267,7 +32278,7 @@
 					<name>60011583</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.15340000000001,40.55483,0</coordinates>
+						<coordinates>-79.1534,40.55483,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -32316,7 +32327,7 @@
 					<name>60011601</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.13349,40.55363,0</coordinates>
+						<coordinates>-79.13348999999999,40.55363,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -32491,7 +32502,7 @@
 					<name>59931584</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.14740000000001,40.54951,0</coordinates>
+						<coordinates>-79.1474,40.54951,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -32673,14 +32684,14 @@
 					<name>57051411</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18550000000001,40.4272,0</coordinates>
+						<coordinates>-79.1855,40.4272,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>56971412</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18662000000001,40.42548,0</coordinates>
+						<coordinates>-79.18662,40.42548,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -32701,7 +32712,7 @@
 					<name>56971409</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18859000000001,40.42445,0</coordinates>
+						<coordinates>-79.18859,40.42445,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -32876,14 +32887,14 @@
 					<name>57051414</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18362000000001,40.4284,0</coordinates>
+						<coordinates>-79.18362,40.4284,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>57051413</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18447000000001,40.42814,0</coordinates>
+						<coordinates>-79.18447,40.42814,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -32897,14 +32908,14 @@
 					<name>57611431</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18653000000001,40.44977,0</coordinates>
+						<coordinates>-79.18653,40.44977,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>57611432</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18559000000001,40.44994,0</coordinates>
+						<coordinates>-79.18559,40.44994,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -32953,21 +32964,21 @@
 					<name>57371390</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18859000000001,40.44883,0</coordinates>
+						<coordinates>-79.18859,40.44883,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>57371391</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18756000000001,40.44891,0</coordinates>
+						<coordinates>-79.18756,40.44891,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>57371392</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18653000000001,40.449,0</coordinates>
+						<coordinates>-79.18653,40.449,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -33219,28 +33230,28 @@
 					<name>57371393</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18550000000001,40.44909,0</coordinates>
+						<coordinates>-79.1855,40.44909,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>57371394</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18456000000001,40.44917,0</coordinates>
+						<coordinates>-79.18456,40.44917,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>57371395</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18353000000001,40.44926,0</coordinates>
+						<coordinates>-79.18353,40.44926,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>57291422</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18259000000001,40.44934,0</coordinates>
+						<coordinates>-79.18259,40.44934,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -33254,7 +33265,7 @@
 					<name>57291424</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18053000000001,40.4496,0</coordinates>
+						<coordinates>-79.18053,40.4496,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -33345,7 +33356,7 @@
 					<name>57131424</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.16568,40.43183,0</coordinates>
+						<coordinates>-79.16567999999999,40.43183,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -33485,7 +33496,7 @@
 					<name>58011478</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.16774,40.45707,0</coordinates>
+						<coordinates>-79.16773999999999,40.45707,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -33765,7 +33776,7 @@
 					<name>57611447</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.16774,40.44943,0</coordinates>
+						<coordinates>-79.16773999999999,40.44943,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -34234,7 +34245,7 @@
 					<name>56971421</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.12946,40.43097,0</coordinates>
+						<coordinates>-79.12945999999999,40.43097,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -34325,7 +34336,7 @@
 					<name>57371453</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.15040000000001,40.43956,0</coordinates>
+						<coordinates>-79.1504,40.43956,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -34339,7 +34350,7 @@
 					<name>57371451</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.15152000000001,40.44042,0</coordinates>
+						<coordinates>-79.15152,40.44042,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -34465,7 +34476,7 @@
 					<name>57611476</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.13452,40.45295,0</coordinates>
+						<coordinates>-79.13451999999999,40.45295,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -34605,7 +34616,7 @@
 					<name>56731433</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.13555,40.41372,0</coordinates>
+						<coordinates>-79.13554999999999,40.41372,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -34668,7 +34679,7 @@
 					<name>56811445</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.13143,40.42085,0</coordinates>
+						<coordinates>-79.13142999999999,40.42085,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -34745,7 +34756,7 @@
 					<name>56971458</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11727000000001,40.42222,0</coordinates>
+						<coordinates>-79.11727,40.42222,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -34794,7 +34805,7 @@
 					<name>56811451</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11530000000001,40.41561,0</coordinates>
+						<coordinates>-79.1153,40.41561,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -34927,7 +34938,7 @@
 					<name>57131426</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.13152,40.43801,0</coordinates>
+						<coordinates>-79.13151999999999,40.43801,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -34941,7 +34952,7 @@
 					<name>57131428</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.13152,40.43973,0</coordinates>
+						<coordinates>-79.13151999999999,40.43973,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -34969,7 +34980,7 @@
 					<name>56731441</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11924000000001,40.42866,0</coordinates>
+						<coordinates>-79.11924,40.42866,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -35046,7 +35057,7 @@
 					<name>57771498</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11324000000001,40.46368,0</coordinates>
+						<coordinates>-79.11324,40.46368,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -35081,7 +35092,7 @@
 					<name>57771503</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11221000000001,40.46016,0</coordinates>
+						<coordinates>-79.11221,40.46016,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -35151,7 +35162,7 @@
 					<name>57691497</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11821000000001,40.45449,0</coordinates>
+						<coordinates>-79.11821,40.45449,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -35186,7 +35197,7 @@
 					<name>57611483</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.13049,40.45003,0</coordinates>
+						<coordinates>-79.13048999999999,40.45003,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -35340,7 +35351,7 @@
 					<name>58091517</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11427000000001,40.46539,0</coordinates>
+						<coordinates>-79.11427,40.46539,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -35354,7 +35365,7 @@
 					<name>58091519</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11324000000001,40.46625,0</coordinates>
+						<coordinates>-79.11324,40.46625,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -35438,7 +35449,7 @@
 					<name>58331462</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18362000000001,40.47672,0</coordinates>
+						<coordinates>-79.18362,40.47672,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -35452,7 +35463,7 @@
 					<name>58331464</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18447000000001,40.47775,0</coordinates>
+						<coordinates>-79.18447,40.47775,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -35466,14 +35477,14 @@
 					<name>58571479</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18465000000001,40.48874,0</coordinates>
+						<coordinates>-79.18465,40.48874,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58571480</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18465000000001,40.4896,0</coordinates>
+						<coordinates>-79.18465,40.4896,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -35543,14 +35554,14 @@
 					<name>58491481</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18362000000001,40.48625,0</coordinates>
+						<coordinates>-79.18362,40.48625,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58491482</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18250000000001,40.48625,0</coordinates>
+						<coordinates>-79.1825,40.48625,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -35627,7 +35638,7 @@
 					<name>58891487</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18465000000001,40.49294,0</coordinates>
+						<coordinates>-79.18465,40.49294,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -35725,7 +35736,7 @@
 					<name>58651485</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18653000000001,40.49355,0</coordinates>
+						<coordinates>-79.18653,40.49355,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -35837,14 +35848,14 @@
 					<name>58331469</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18447000000001,40.48024,0</coordinates>
+						<coordinates>-79.18447,40.48024,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58331470</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18456000000001,40.48119,0</coordinates>
+						<coordinates>-79.18456,40.48119,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -35865,7 +35876,7 @@
 					<name>58411469</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18765000000001,40.48256,0</coordinates>
+						<coordinates>-79.18765,40.48256,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -35886,7 +35897,7 @@
 					<name>58411472</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18550000000001,40.4835,0</coordinates>
+						<coordinates>-79.1855,40.4835,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -35977,7 +35988,7 @@
 					<name>58331454</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.2019,40.48059,0</coordinates>
+						<coordinates>-79.20189999999999,40.48059,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -36425,7 +36436,7 @@
 					<name>57611435</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18362000000001,40.45106,0</coordinates>
+						<coordinates>-79.18362,40.45106,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -36516,7 +36527,7 @@
 					<name>57771442</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18447000000001,40.45698,0</coordinates>
+						<coordinates>-79.18447,40.45698,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -36691,7 +36702,7 @@
 					<name>58091457</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18353000000001,40.4726,0</coordinates>
+						<coordinates>-79.18353,40.4726,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -36789,7 +36800,7 @@
 					<name>57851447</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18053000000001,40.46265,0</coordinates>
+						<coordinates>-79.18053,40.46265,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -36817,7 +36828,7 @@
 					<name>57931437</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.19975,40.46462,0</coordinates>
+						<coordinates>-79.19974999999999,40.46462,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -36838,7 +36849,7 @@
 					<name>57931434</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.20087,40.4629,0</coordinates>
+						<coordinates>-79.20086999999999,40.4629,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -37048,7 +37059,7 @@
 					<name>58731480</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18447000000001,40.5029,0</coordinates>
+						<coordinates>-79.18447,40.5029,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -37062,7 +37073,7 @@
 					<name>58731478</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.18559000000001,40.50376,0</coordinates>
+						<coordinates>-79.18559,40.50376,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -37125,7 +37136,7 @@
 					<name>59371523</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.16568,40.50754,0</coordinates>
+						<coordinates>-79.16567999999999,40.50754,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -37188,7 +37199,7 @@
 					<name>59051526</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.16568,40.51088,0</coordinates>
+						<coordinates>-79.16567999999999,40.51088,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -37419,7 +37430,7 @@
 					<name>59371520</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.16671,40.50565,0</coordinates>
+						<coordinates>-79.16670999999999,40.50565,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -37510,7 +37521,7 @@
 					<name>59051523</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.16671,40.51183,0</coordinates>
+						<coordinates>-79.16670999999999,40.51183,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -37944,28 +37955,28 @@
 					<name>58251496</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.16765,40.472,0</coordinates>
+						<coordinates>-79.16764999999999,40.472,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58251497</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.16662,40.47192,0</coordinates>
+						<coordinates>-79.16661999999999,40.47192,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58251498</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.16568,40.47183,0</coordinates>
+						<coordinates>-79.16567999999999,40.47183,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58251499</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.16465,40.47174,0</coordinates>
+						<coordinates>-79.16464999999999,40.47174,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -38042,7 +38053,7 @@
 					<name>58251488</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.16465,40.47732,0</coordinates>
+						<coordinates>-79.16464999999999,40.47732,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -38574,7 +38585,7 @@
 					<name>59451556</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.15443000000001,40.52487,0</coordinates>
+						<coordinates>-79.15443,40.52487,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -38777,7 +38788,7 @@
 					<name>59611570</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.15040000000001,40.535,0</coordinates>
+						<coordinates>-79.1504,40.535,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -38882,7 +38893,7 @@
 					<name>59211560</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.13152,40.52127,0</coordinates>
+						<coordinates>-79.13151999999999,40.52127,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -38917,7 +38928,7 @@
 					<name>59211547</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.14843000000001,40.51921,0</coordinates>
+						<coordinates>-79.14843,40.51921,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -39071,7 +39082,7 @@
 					<name>58571527</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.13152,40.49432,0</coordinates>
+						<coordinates>-79.13151999999999,40.49432,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -39141,7 +39152,7 @@
 					<name>58651527</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.13452,40.50067,0</coordinates>
+						<coordinates>-79.13451999999999,40.50067,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -39288,7 +39299,7 @@
 					<name>58651517</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.15040000000001,40.49543,0</coordinates>
+						<coordinates>-79.1504,40.49543,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -39393,7 +39404,7 @@
 					<name>58491514</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.15049000000001,40.49252,0</coordinates>
+						<coordinates>-79.15049,40.49252,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -39589,7 +39600,7 @@
 					<name>58331514</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.13555,40.48187,0</coordinates>
+						<coordinates>-79.13554999999999,40.48187,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -39624,7 +39635,7 @@
 					<name>58251519</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.12027000000001,40.48247,0</coordinates>
+						<coordinates>-79.12027,40.48247,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -39652,7 +39663,7 @@
 					<name>58411504</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.14637000000001,40.4823,0</coordinates>
+						<coordinates>-79.14637,40.4823,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -39687,7 +39698,7 @@
 					<name>58331501</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.13049,40.48239,0</coordinates>
+						<coordinates>-79.13048999999999,40.48239,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -39960,7 +39971,7 @@
 					<name>59451586</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.13246,40.53183,0</coordinates>
+						<coordinates>-79.13245999999999,40.53183,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -40051,7 +40062,7 @@
 					<name>59131569</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11924000000001,40.51595,0</coordinates>
+						<coordinates>-79.11924,40.51595,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -40219,7 +40230,7 @@
 					<name>59451570</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.14740000000001,40.53474,0</coordinates>
+						<coordinates>-79.1474,40.53474,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -40345,7 +40356,7 @@
 					<name>59291565</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.13255,40.52307,0</coordinates>
+						<coordinates>-79.13254999999999,40.52307,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -40380,7 +40391,7 @@
 					<name>59131560</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.13049,40.51689,0</coordinates>
+						<coordinates>-79.13048999999999,40.51689,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -40555,7 +40566,7 @@
 					<name>59211577</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11924000000001,40.50067,0</coordinates>
+						<coordinates>-79.11924,40.50067,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -40604,14 +40615,14 @@
 					<name>58731552</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11418000000001,40.50024,0</coordinates>
+						<coordinates>-79.11418,40.50024,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58331499</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.13358,40.48299,0</coordinates>
+						<coordinates>-79.13357999999999,40.48299,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -40660,14 +40671,14 @@
 					<name>58251527</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11624000000001,40.48204,0</coordinates>
+						<coordinates>-79.11624,40.48204,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58251528</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11530000000001,40.48187,0</coordinates>
+						<coordinates>-79.1153,40.48187,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -40905,7 +40916,7 @@
 					<name>60971632</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.15340000000001,40.59457,0</coordinates>
+						<coordinates>-79.1534,40.59457,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -41066,7 +41077,7 @@
 					<name>61131646</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.15246000000001,40.59852,0</coordinates>
+						<coordinates>-79.15246,40.59852,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -41087,7 +41098,7 @@
 					<name>61051634</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.15246000000001,40.59534,0</coordinates>
+						<coordinates>-79.15246,40.59534,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -41101,7 +41112,7 @@
 					<name>61051636</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.15134000000001,40.59611,0</coordinates>
+						<coordinates>-79.15134,40.59611,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -41115,7 +41126,7 @@
 					<name>61051638</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.15031000000001,40.59706,0</coordinates>
+						<coordinates>-79.15031,40.59706,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -41332,7 +41343,7 @@
 					<name>61131624</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.16868,40.60307,0</coordinates>
+						<coordinates>-79.16867999999999,40.60307,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -41605,7 +41616,7 @@
 					<name>61051640</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.14937000000001,40.59809,0</coordinates>
+						<coordinates>-79.14937,40.59809,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -41619,7 +41630,7 @@
 					<name>61051642</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.14843000000001,40.59903,0</coordinates>
+						<coordinates>-79.14843,40.59903,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -41647,7 +41658,7 @@
 					<name>61131653</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.14740000000001,40.60418,0</coordinates>
+						<coordinates>-79.1474,40.60418,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -41682,7 +41693,7 @@
 					<name>60251594</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.15443000000001,40.56307,0</coordinates>
+						<coordinates>-79.15443,40.56307,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -41766,7 +41777,7 @@
 					<name>60091596</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.14937000000001,40.56118,0</coordinates>
+						<coordinates>-79.14937,40.56118,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -41815,7 +41826,7 @@
 					<name>60091591</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.15134000000001,40.55852,0</coordinates>
+						<coordinates>-79.15134,40.55852,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -41990,7 +42001,7 @@
 					<name>60331596</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.15134000000001,40.56427,0</coordinates>
+						<coordinates>-79.15134,40.56427,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -42046,7 +42057,7 @@
 					<name>60411598</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.16465,40.57328,0</coordinates>
+						<coordinates>-79.16464999999999,40.57328,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -42200,7 +42211,7 @@
 					<name>60731640</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.13049,40.5841,0</coordinates>
+						<coordinates>-79.13048999999999,40.5841,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -42249,7 +42260,7 @@
 					<name>60651635</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.13349,40.58126,0</coordinates>
+						<coordinates>-79.13348999999999,40.58126,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -43040,7 +43051,7 @@
 					<name>60411623</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.1304,40.57191,0</coordinates>
+						<coordinates>-79.13039999999999,40.57191,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -43068,7 +43079,7 @@
 					<name>60571627</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.13349,40.57543,0</coordinates>
+						<coordinates>-79.13348999999999,40.57543,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -43110,7 +43121,7 @@
 					<name>60091620</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11615000000001,40.55766,0</coordinates>
+						<coordinates>-79.11615,40.55766,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -43390,7 +43401,7 @@
 					<name>60411620</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.13152,40.57328,0</coordinates>
+						<coordinates>-79.13151999999999,40.57328,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -43474,7 +43485,7 @@
 					<name>60331634</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11624000000001,40.56856,0</coordinates>
+						<coordinates>-79.11624,40.56856,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -43495,7 +43506,7 @@
 					<name>60331636</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11324000000001,40.56796,0</coordinates>
+						<coordinates>-79.11324,40.56796,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -43593,7 +43604,7 @@
 					<name>60091618</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11718000000001,40.55861,0</coordinates>
+						<coordinates>-79.11718,40.55861,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -43859,7 +43870,7 @@
 					<name>60731654</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11727000000001,40.5853,0</coordinates>
+						<coordinates>-79.11727,40.5853,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -43915,7 +43926,7 @@
 					<name>60811655</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11624000000001,40.58624,0</coordinates>
+						<coordinates>-79.11624,40.58624,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -44125,7 +44136,7 @@
 					<name>60411649</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.1013,40.57019,0</coordinates>
+						<coordinates>-79.10129999999999,40.57019,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -44167,7 +44178,7 @@
 					<name>60331648</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.09736,40.56899,0</coordinates>
+						<coordinates>-79.09735999999999,40.56899,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -44272,14 +44283,14 @@
 					<name>60171640</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.09942,40.56032,0</coordinates>
+						<coordinates>-79.09941999999999,40.56032,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>60171639</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.10036,40.56049,0</coordinates>
+						<coordinates>-79.10035999999999,40.56049,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -44356,7 +44367,7 @@
 					<name>60571657</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.09624,40.57302,0</coordinates>
+						<coordinates>-79.09623999999999,40.57302,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -44433,7 +44444,7 @@
 					<name>59371579</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11418000000001,40.5199,0</coordinates>
+						<coordinates>-79.11418,40.5199,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -44447,7 +44458,7 @@
 					<name>59371577</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11530000000001,40.51895,0</coordinates>
+						<coordinates>-79.1153,40.51895,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -44461,7 +44472,7 @@
 					<name>59371575</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11624000000001,40.51818,0</coordinates>
+						<coordinates>-79.11624,40.51818,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -44552,7 +44563,7 @@
 					<name>58891581</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.09736,40.50041,0</coordinates>
+						<coordinates>-79.09735999999999,40.50041,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -44643,7 +44654,7 @@
 					<name>59931611</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11615000000001,40.55157,0</coordinates>
+						<coordinates>-79.11615,40.55157,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -44657,7 +44668,7 @@
 					<name>60011617</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11718000000001,40.55251,0</coordinates>
+						<coordinates>-79.11718,40.55251,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -45056,7 +45067,7 @@
 					<name>56971478</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.10036,40.42256,0</coordinates>
+						<coordinates>-79.10035999999999,40.42256,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -45098,7 +45109,7 @@
 					<name>57291498</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.1013,40.43226,0</coordinates>
+						<coordinates>-79.10129999999999,40.43226,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -45231,7 +45242,7 @@
 					<name>56971482</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.10036,40.42377,0</coordinates>
+						<coordinates>-79.10035999999999,40.42377,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -45392,7 +45403,7 @@
 					<name>56891472</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.10139,40.41999,0</coordinates>
+						<coordinates>-79.10138999999999,40.41999,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -45889,7 +45900,7 @@
 					<name>57531509</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.09942,40.45089,0</coordinates>
+						<coordinates>-79.09941999999999,40.45089,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -46155,7 +46166,7 @@
 					<name>56571457</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.1013,40.4054,0</coordinates>
+						<coordinates>-79.10129999999999,40.4054,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -46379,7 +46390,7 @@
 					<name>57131497</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.08208000000001,40.42814,0</coordinates>
+						<coordinates>-79.08208,40.42814,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -46568,7 +46579,7 @@
 					<name>57771537</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.08105000000001,40.45612,0</coordinates>
+						<coordinates>-79.08105,40.45612,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -46848,7 +46859,7 @@
 					<name>57611525</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.07899000000001,40.45406,0</coordinates>
+						<coordinates>-79.07899,40.45406,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -46974,21 +46985,21 @@
 					<name>57131501</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.08105000000001,40.43037,0</coordinates>
+						<coordinates>-79.08105,40.43037,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>57131502</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.08105000000001,40.4314,0</coordinates>
+						<coordinates>-79.08105,40.4314,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>57131503</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.08096000000001,40.43226,0</coordinates>
+						<coordinates>-79.08096,40.43226,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -47058,7 +47069,7 @@
 					<name>57611539</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.06508,40.4508,0</coordinates>
+						<coordinates>-79.06507999999999,40.4508,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -47219,7 +47230,7 @@
 					<name>57691545</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.06414,40.45527,0</coordinates>
+						<coordinates>-79.06413999999999,40.45527,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -47261,14 +47272,14 @@
 					<name>60011618</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11624000000001,40.55234,0</coordinates>
+						<coordinates>-79.11624,40.55234,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>60091625</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11615000000001,40.55337,0</coordinates>
+						<coordinates>-79.11615,40.55337,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -47303,7 +47314,7 @@
 					<name>59931614</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11521000000001,40.54968,0</coordinates>
+						<coordinates>-79.11521,40.54968,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -47471,7 +47482,7 @@
 					<name>59691602</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11512000000001,40.54075,0</coordinates>
+						<coordinates>-79.11512,40.54075,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -47520,7 +47531,7 @@
 					<name>59771621</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.09933,40.5423,0</coordinates>
+						<coordinates>-79.09932999999999,40.5423,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -47590,7 +47601,7 @@
 					<name>59771607</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.11221000000001,40.54273,0</coordinates>
+						<coordinates>-79.11221,40.54273,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -47716,7 +47727,7 @@
 					<name>59531595</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.09624,40.5308,0</coordinates>
+						<coordinates>-79.09623999999999,40.5308,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -47772,7 +47783,7 @@
 					<name>59611613</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.09727,40.53698,0</coordinates>
+						<coordinates>-79.09726999999999,40.53698,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -47975,7 +47986,7 @@
 					<name>59451599</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.10139,40.5247,0</coordinates>
+						<coordinates>-79.10138999999999,40.5247,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -48108,7 +48119,7 @@
 					<name>59531611</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.08105000000001,40.5308,0</coordinates>
+						<coordinates>-79.08105,40.5308,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -48199,7 +48210,7 @@
 					<name>59451612</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.08405000000001,40.5265,0</coordinates>
+						<coordinates>-79.08405,40.5265,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -48437,7 +48448,7 @@
 					<name>60171652</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.08302000000001,40.56281,0</coordinates>
+						<coordinates>-79.08302,40.56281,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -48612,7 +48623,7 @@
 					<name>59851633</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.06817,40.54333,0</coordinates>
+						<coordinates>-79.06816999999999,40.54333,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -48647,7 +48658,7 @@
 					<name>59531627</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.06817,40.53474,0</coordinates>
+						<coordinates>-79.06816999999999,40.53474,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -49102,7 +49113,7 @@
 					<name>59851645</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.06423,40.54942,0</coordinates>
+						<coordinates>-79.06422999999999,40.54942,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -49123,7 +49134,7 @@
 					<name>59851648</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.06311,40.55105,0</coordinates>
+						<coordinates>-79.06310999999999,40.55105,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -49179,7 +49190,7 @@
 					<name>60411644</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.06217,40.56367,0</coordinates>
+						<coordinates>-79.06216999999999,40.56367,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -49319,7 +49330,7 @@
 					<name>59291630</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.06208,40.52513,0</coordinates>
+						<coordinates>-79.06207999999999,40.52513,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -49403,7 +49414,7 @@
 					<name>59051615</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.06114,40.51174,0</coordinates>
+						<coordinates>-79.06113999999999,40.51174,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -49564,7 +49575,7 @@
 					<name>59451645</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.06011,40.52805,0</coordinates>
+						<coordinates>-79.06010999999999,40.52805,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -49865,7 +49876,7 @@
 					<name>59851643</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.06508,40.54839,0</coordinates>
+						<coordinates>-79.06507999999999,40.54839,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -49879,7 +49890,7 @@
 					<name>59851641</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.0662,40.54753,0</coordinates>
+						<coordinates>-79.06619999999999,40.54753,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -49991,7 +50002,7 @@
 					<name>59611618</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.06423,40.5368,0</coordinates>
+						<coordinates>-79.06422999999999,40.5368,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -50005,7 +50016,7 @@
 					<name>59771630</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.04989000000001,40.54298,0</coordinates>
+						<coordinates>-79.04989,40.54298,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -50138,7 +50149,7 @@
 					<name>59771640</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.04483000000001,40.5417,0</coordinates>
+						<coordinates>-79.04483,40.5417,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -50159,7 +50170,7 @@
 					<name>59771637</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.04577000000001,40.54358,0</coordinates>
+						<coordinates>-79.04577,40.54358,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -50215,7 +50226,7 @@
 					<name>60091628</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.04586000000001,40.54616,0</coordinates>
+						<coordinates>-79.04586,40.54616,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -50236,7 +50247,7 @@
 					<name>60091631</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.04680000000001,40.54805,0</coordinates>
+						<coordinates>-79.0468,40.54805,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -50306,7 +50317,7 @@
 					<name>60251642</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.04895000000001,40.55406,0</coordinates>
+						<coordinates>-79.04895,40.55406,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -50341,7 +50352,7 @@
 					<name>59371649</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.04380000000001,40.52753,0</coordinates>
+						<coordinates>-79.0438,40.52753,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -50614,7 +50625,7 @@
 					<name>58411557</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.0983,40.49063,0</coordinates>
+						<coordinates>-79.09829999999999,40.49063,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -50642,14 +50653,14 @@
 					<name>58411553</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.09942,40.48805,0</coordinates>
+						<coordinates>-79.09941999999999,40.48805,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
 					<name>58411552</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.09942,40.48711,0</coordinates>
+						<coordinates>-79.09941999999999,40.48711,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -50782,7 +50793,7 @@
 					<name>58651564</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.09933,40.4944,0</coordinates>
+						<coordinates>-79.09932999999999,40.4944,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -51006,7 +51017,7 @@
 					<name>58091538</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.09633,40.47089,0</coordinates>
+						<coordinates>-79.09632999999999,40.47089,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -51097,7 +51108,7 @@
 					<name>57851536</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.08302000000001,40.4623,0</coordinates>
+						<coordinates>-79.08302,40.4623,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -51174,7 +51185,7 @@
 					<name>58091569</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.06423,40.47544,0</coordinates>
+						<coordinates>-79.06422999999999,40.47544,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -51209,7 +51220,7 @@
 					<name>58091567</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.06611,40.47501,0</coordinates>
+						<coordinates>-79.06610999999999,40.47501,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -51265,7 +51276,7 @@
 					<name>58171564</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.06817,40.47415,0</coordinates>
+						<coordinates>-79.06816999999999,40.47415,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -51363,7 +51374,7 @@
 					<name>58251572</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.06526,40.47981,0</coordinates>
+						<coordinates>-79.06525999999999,40.47981,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -51377,7 +51388,7 @@
 					<name>58091562</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.06817,40.47226,0</coordinates>
+						<coordinates>-79.06816999999999,40.47226,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -51489,7 +51500,7 @@
 					<name>58331551</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.08199000000001,40.47003,0</coordinates>
+						<coordinates>-79.08199,40.47003,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -51615,7 +51626,7 @@
 					<name>58891611</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.05092000000001,40.49535,0</coordinates>
+						<coordinates>-79.05092,40.49535,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -51727,7 +51738,7 @@
 					<name>58811604</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.06508,40.49689,0</coordinates>
+						<coordinates>-79.06507999999999,40.49689,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -51832,7 +51843,7 @@
 					<name>58331587</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.04380000000001,40.48625,0</coordinates>
+						<coordinates>-79.0438,40.48625,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -52000,7 +52011,7 @@
 					<name>58971623</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.04586000000001,40.50719,0</coordinates>
+						<coordinates>-79.04586,40.50719,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -52084,7 +52095,7 @@
 					<name>58651611</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.04586000000001,40.49664,0</coordinates>
+						<coordinates>-79.04586,40.49664,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -52231,7 +52242,7 @@
 					<name>58971615</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.04792000000001,40.50445,0</coordinates>
+						<coordinates>-79.04792,40.50445,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -52336,7 +52347,7 @@
 					<name>58891624</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.04483000000001,40.50616,0</coordinates>
+						<coordinates>-79.04483,40.50616,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -52364,7 +52375,7 @@
 					<name>58891621</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.04680000000001,40.50719,0</coordinates>
+						<coordinates>-79.0468,40.50719,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -52427,7 +52438,7 @@
 					<name>58811581</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.08405000000001,40.50007,0</coordinates>
+						<coordinates>-79.08405,40.50007,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -52679,7 +52690,7 @@
 					<name>58891586</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.08405000000001,40.50822,0</coordinates>
+						<coordinates>-79.08405,40.50822,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
@@ -52847,7 +52858,7 @@
 					<name>58731571</name>
 					<styleUrl>#khPoiStyle0x1611</styleUrl>
 					<Point>
-						<coordinates>-79.09427,40.49921,0</coordinates>
+						<coordinates>-79.09426999999999,40.49921,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark>
